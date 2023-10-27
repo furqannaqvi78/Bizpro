@@ -1,0 +1,400 @@
+/* ------------------------------------------------------
+general css are starts here
+------------------------------------------------------ */
+body {
+   color: #9090A7;
+   font-family: 'Manrope', sans-serif;
+}
+
+h1 {
+   font-size: 50px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 65px;
+   /* 130% */
+}
+
+h2 {
+   font-size: 45px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 55px;
+   /* 122.222% */
+}
+
+h3 {
+   font-size: 20px;
+}
+
+span {
+   color: #00E5CC;
+}
+
+a {
+   text-decoration: none;
+   color: #9090A7;
+}
+
+h1,
+h2,
+h3 {
+   color: #060640;
+}
+
+p,
+a {
+   font-size: 14px;
+}
+h2 span{
+   color: #060640;
+}
+.it-works,
+.banner-wrapper,
+.about-us,
+.packages,
+.Global,
+.newsletter,
+footer {
+   padding-top: 70px;
+}
+
+ul {
+   list-style: none;
+   padding-left: 0px;
+}
+
+/* ------------------------------------------------------
+general css are ends here
+------------------------------------------------------ */
+/* -----------------------------------------------------------
+navbar css are starts here
+----------------------------------------------------------- */
+.navbar {
+   background-color: #fff;
+   padding: 25px 0px;
+   border-radius: 6px;
+}
+.navbar-brand{
+   font-size: 30px;
+   font-weight: 700;
+   margin-left: 35px;
+   color: #060640;
+}
+.nav-button {
+   display: inline-block;
+}
+.nav-link{
+   color: #9090A7;
+}
+.img{
+   padding-bottom: 30px;
+}
+nav-link:focus, .nav-link:hover {
+   color: #00E5CC;
+}
+
+.trial,
+.newsletter .btn {
+   background-color: #060640;
+   padding: 20px 30px;
+   border-radius: 10px;
+   color: white;
+   display: inline-block;
+}
+
+.sign {
+   padding-right: 10px;
+}
+
+/* -----------------------------------------------------------
+navbar css are ends here
+----------------------------------------------------------- */
+/* banner wrapper start--------------------------------------- */
+.banner-wrapper h1 span {
+   color: #060640;
+
+}
+
+.header {
+   background-image: url(../images/Header.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   padding: 20px 0px;
+}
+
+.navbar-toggler:focus {
+   box-shadow: none;
+}
+.fly-image {
+   position: absolute;
+   top: -4px;
+   right: 27px;
+}
+.fa-solid, .fas{
+   font-size: 50px;
+   margin-left: 15px;
+}
+/* banner wrapper end------------------------ */
+/* start .it-works css ------------------------------*/
+.card {
+   padding: 20px 30px;
+   border: none;
+   height: 100%;
+}
+
+.it-works .fly-image {
+   right: 50px;
+   top: -5px;
+}
+
+.it-works .card h3 {
+   margin-top: 30px;
+}
+
+.it-works .card {
+   border-radius: 12px;
+   background: #FFF;
+}
+
+.it-works .card:hover {
+   box-shadow: 0px 6px 10px 0px black;
+   border: none;
+   transition: 1s;
+}
+
+.it-works .card .card-image {
+   height: 70px;
+   width: 70px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+   background-color: #ECF9FFCC;
+}
+.vid-eo{
+   padding-left: 20px;
+}
+
+/* end .it-works css ------------------------*/
+
+/* start .about-us css -------------------------------*/
+
+
+.about-us .fly-image {
+   left: 64px;
+   top: -5px;
+}
+
+.about-us li {
+   display: flex;
+}
+
+.about-us .about-text {
+   padding-left: 20px;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 28px;
+
+}
+
+.about-us .card-image {
+   height: 50px;
+   width: 70px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+   background-color: #ECF9FFCC;
+}
+/* section about us end--------------------- */
+/* start services css ------------------------------*/
+.services .fly-image {
+   top: -6px;
+   left: 61px;
+}
+
+.services {
+   background-image: url(../images/Header.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   padding: 100px 0px;
+}
+
+.services h3 {
+   margin-top: 25px;
+}
+
+.services .card p {
+   margin-top: 0;
+   margin-bottom: 0;
+   padding-left: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+   height: 40px;
+   width: 40px;
+   background-color: #00E5CC;
+   border-radius: 6px;
+}
+
+
+.carousel-control-next,
+.carousel-control-prev {
+   top: -60;
+   bottom: auto;
+   opacity: 0.9;
+   height: 50px;
+   width: 50px;
+   background-color: white;
+   border-radius: 6px;
+}
+
+.carousel-control-prev {
+   left: auto;
+   right: 63px;
+}
+
+.carousel-control-next {
+   right: 18px;
+}
+/* section services end------------ */
+/* start Global css ----------------------*/
+.Global .fly-image {
+   right: 0;
+   left: 27px;
+   top: -5;
+}
+
+.back-image {
+   background-image: url(../images/Header.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: left;
+   padding: 50px 0px;
+   border-radius: 15px;
+}
+
+.newsletter .news-image {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+}
+
+.newsletter .fly-image {
+   top: -5;
+   left: 5px;
+}
+
+.form-control {
+   padding: 30px;
+}
+
+.newsletter .btn {
+   position: absolute;
+   right: 22px;
+   bottom: 10px;
+}
+/* section global end----------- */
+/* section footer start------------------------ */
+footer {
+   background-color: #060640;
+   margin-top: 50px;
+}
+
+footer h2 {
+   color: white;
+}
+footer h3 {
+   color: whitesmoke;
+}
+footer .fa-brands {
+   margin-left: 5px;
+   height: 30px;
+   width: 30px;
+   border: 1px solid;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+footer span{
+   color: #00E5CC;
+}
+/* section footer end------------------- */
+ /* media querry start------------------------- */
+ @media (max-width:991px) {
+   .navbar .trial, .newsletter .btn{
+       padding: 13px 19px;
+   }
+   .navbar .fa-solid, .fas{
+       margin: 0;
+       font-size: 30px;
+   }
+ }
+@media (max-width:767px) {
+   .newsletter .news-image {
+       position: unset;
+   }
+
+   .banner-wrapper h1{
+       font-size: 34px;
+   }
+   .banner-wrapper .fly-image {
+       top: -7px;
+       left: 68px;
+   }
+   .packages .fly-image {
+       left: 40px;
+       top: -8px;
+   }
+   .promotion h2{
+       font-size: 34px;
+   }
+   .promotion .fly-image {
+       top: -7px;
+       left: 22px;
+   }
+   .newsletter h2 {
+       font-size: 29px;
+   }
+   .newsletter .fly-image {
+       top: -10px;
+       left: 1px;
+   }
+.newsletter .btn {
+       padding: 14px 17px;
+       right: 22px;
+   bottom: 13px;
+   }
+   .carousel-control-next,
+.carousel-control-prev {
+   top: -10;
+   height: 38px;
+   width: 38px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+   height: 20px;
+   width: 20px;
+}
+
+.packages h2{
+   font-size: 34px;
+}
+p{
+   font-size: 10px;
+} 
+.card-image{
+   margin: auto;
+}
+.banner-wrapper .card-image{
+   margin: 0;
+}
+.global h2{
+   font-size: 35px;
+}
+}
